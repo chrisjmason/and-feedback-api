@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "REST api for AND-Feedback app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jasmine-node . --autotest --watch ."
+  },
+  "author": "cmason",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "google-spreadsheet": "^2.0.4",
+    "jasmine": "^2.8.0",
+    "jasmine-node": "^1.14.5",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
