@@ -7,7 +7,9 @@ module.exports = {
             req.body.receiver,
             req.body.positive,
             req.body.constructive,
-            req.body.andValues,
+            req.body.wonder,
+            req.body.share,
+            req.body.delight,
             req.body.other);
 
         googleSheetsService.addRowToGoogleSheets(feedbackToAdd, (result, row) => {
