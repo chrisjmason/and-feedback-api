@@ -10,7 +10,7 @@ app.get('/', (req, res) => res.send({"message": "Everything working!"}));
 
 app.post('/feedback', feedbackController.addFeedback);
 
-app.listen(4200);
+app.listen(process.env.PORT || 4200);
 
 console.log("listening on port 4200 :)");
 
